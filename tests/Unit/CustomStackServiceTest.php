@@ -89,7 +89,6 @@ class CustomStackServiceTest extends TestCase
     public function testPushNonInt_ThrowsTypeError(): void
     {
         $this->expectException(\TypeError::class);
-        /** @phpstan-ignore-next-line */
         $this->service->push('string');
     }
 }
