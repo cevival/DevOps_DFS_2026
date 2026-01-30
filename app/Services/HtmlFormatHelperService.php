@@ -2,7 +2,7 @@
 
 namespace App\Services;
 
-class HtmlFormatHelper
+class HtmlFormatHelperService
 {
     public function getBoldFormat(string $content): string
     {

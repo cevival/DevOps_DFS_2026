@@ -2,7 +2,7 @@
 
 namespace App\Services;
 
-class Reservation
+class ReservationService
 {
     public User $madeBy;
 

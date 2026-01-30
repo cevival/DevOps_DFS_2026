@@ -4,7 +4,7 @@ namespace App\Services;
 
 use Exception;
 
-class CustomStack
+class CustomStackService
 {
     private array $list = [];
 

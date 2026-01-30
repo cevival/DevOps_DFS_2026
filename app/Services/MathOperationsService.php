@@ -4,7 +4,7 @@ namespace App\Services;
 
 use InvalidArgumentException;
 
-class MathOperations
+class MathOperationsService
 {
     public function add(int $numberOne, int $numberTwo): int
     {
